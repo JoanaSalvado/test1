@@ -10,7 +10,7 @@ from psycopg2.extensions import AsIs
 
 
 ''' Functions to solve numpy-postgres sql quering error.
-    transform float and int'''
+    transform float and int as it should be'''
     
 def addapt_numpy_float32(numpy_float32):
     return AsIs(numpy_float32)
